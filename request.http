@@ -1,0 +1,19 @@
+POST http://localhost:8080/etudiants
+Content-Type: application/json
+
+{
+  "id": 2,
+  "name": "Deborah",
+  "matricule": "17YI480"
+}
+
+###
+
+
+###
+GET http://localhost:8080/etudiants
+Accept: application/json
+
+###
+
+
